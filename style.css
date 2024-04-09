@@ -1,0 +1,237 @@
+body{
+    background: linear-gradient(to right, rgb(216, 143, 6), pink);
+  }
+  .icons {
+    display: flex;
+    gap: 10px;
+  }
+  .icons img {
+    width: 30px;
+    height: 30px;
+  }
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(to right, rgb(216, 143, 6), pink);
+      padding: 12px;
+      color: white;
+    }
+    .icons {
+      display: flex;
+      gap: 10px;
+    }
+    .icons i {
+      font-size: 30px;
+      color: white;
+    }
+    .contact-info {
+      text-align: center;
+      flex-grow: 1;
+      margin-top: 5px; 
+    }
+    .contact-info p {
+      margin: 0;
+    }
+    .btnn {
+      background-color: transparent;
+      color: white;
+      padding: 10px 20px;
+      border: 2px solid white;
+      border-radius: 15px;
+      cursor: pointer;
+      font-size: 16px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+      }
+      .icons {
+        margin-bottom: 10px;
+      }
+      .btn {
+        margin-top: 10px;
+      }
+    }
+  .bg-container{
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('BG.png'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+    }
+    .content {
+      text-align: left;
+      color: white;
+      padding: 20px;
+      background: none;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      max-width: 600px;
+      margin-left: 20px; 
+  
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, rgb(216, 143, 6), pink);
+    padding: 20px;
+  }
+  
+  .card {
+    border: none;
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+    background: none;
+  }
+  
+  .card-heading {
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .paragraph-container {
+    background: linear-gradient(to right, rgb(216, 143, 6), pink);
+    padding: 20px;
+  }
+  
+  .paragraph {
+    color: white;
+    text-align: left;
+  }
+  @media screen and (max-width: 600px) {
+    .card-container {
+    
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      margin-right: 75px;
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .content {
+      margin-left: 0; /* Resetting margin-left for content */
+      margin-top: 20px; /* Adding margin-top for better spacing */
+    }
+  }
+  .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-left {
+    padding: 20px;
+  }
+  
+  .about-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .section-heading {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .sub-heading {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    color: white;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .about-right img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (min-width: 600px) {
+    .about-section {
+      flex-direction: row;
+    }
+  
+    .about-left, .about-right {
+      flex: 1;
+    }
+  
+    .about-left, .about-right {
+      padding: 20px;
+    }
+  
+    .about-right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+  }
+  
+  .services-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+  }
+  
+  .service-card {
+    flex: 0 1 calc(30% - 20px); 
+    margin-bottom: 20px; 
+    text-align: center;
+  }
+  
+  .service-card img {
+    width: 100%;
+    cursor: pointer;
+    max-height: 200px; 
+    object-fit: cover;
+    border-radius: 10px; 
+  }
+  
+  .service-heading {
+    margin-top: 25px;
+    background: linear-gradient(to right, rgb(216, 143, 6), pink);
+    color: white; 
+    padding: 5px 10px; 
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .service-card {
+      flex: 0 1 calc(100% - 20px);
+    }
+  }
+  
+  
